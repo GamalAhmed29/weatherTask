@@ -1,0 +1,152 @@
+body {
+  background-color: rgb(30, 32, 43);
+}
+
+.header-container {
+  margin-right: auto;
+  margin-left: auto;
+  margin-top: 10px;
+  padding-left: 15px;
+  padding-right: 15px;
+  background-color: rgb(30, 32, 43);
+}
+.brand {
+  color: white;
+  left: 150px;
+  top: 25px;
+  font-size: 20px;
+  margin: 0;
+}
+.p2 {
+  position: absolute;
+  width: 200px;
+  font-size: 16px;
+  top: 22px;
+  word-wrap: normal;
+  margin: 0;
+}
+.nav-link {
+  color: white !important;
+  margin-left: 15px;
+  padding: 0px 25px 0px 25px !important;
+}
+.nav-link:hover {
+  color: #3e9ecb !important;
+  border: 2px solid #318cb6;
+  border-radius: 10px;
+}
+.active {
+  color: #3e9ecb !important;
+  padding: 0px 25px 0px 25px !important;
+  border: 2px solid #318cb6;
+  border-radius: 10px;
+ 
+}
+.home{
+    background-image: url('../Images/banner.png');
+    background-position: center;
+    background-size:cover;
+    height: 50vh;
+    color: #ddd !important;
+}
+.input-group{
+    width: 70%;
+    margin: auto;
+    top: 100px;
+    left: 220px;
+    color: #ddd !important;
+
+}
+.form-control{
+    background-color:#1E202B !important;
+     color: #ddd !important;
+    border: none;
+    height: 50px !important;
+    border-radius: 50px;
+    
+}
+.form-control::placeholder {
+       color: #757569;
+       padding-left: 20px; ;
+    }
+.btn{
+    background-color: rgb(0, 154, 216) !important ;
+    border-radius: 50px;
+    z-index: 999;
+    color: #ddd;
+   padding:  0 25px;
+}
+.weather{
+  position: absolute;
+  top: 42%;
+  width: 22.33%;
+  color: white;
+  background-color: rgb(50, 53, 68);
+}
+
+.weatherHeaer{
+  position: relative;
+  background-color: rgb(45, 48, 61);
+  padding: 10px;
+  font-weight: 400;
+  font-size: 16px;
+}
+.date{
+  position: absolute;
+  left: 250px;  
+  
+}
+.location{
+  padding: 25px 20px;
+  font-family: "Roboto", sans-serif;
+  font-size: 18px;
+  font-weight: 400;
+  color: rgb(191, 193, 200);
+}
+.temp{
+   padding: 25px 20px;
+     font-family: "Roboto", sans-serif;
+     font-size: 6.4285714286rem;
+     font-weight: 700;
+      transform: translateY(-60px);
+}
+.Icon{
+  width: 30px;
+}
+.icon1{
+  width: 50px;
+  position: absolute;
+  top: 120px;
+  left: 5%;
+}
+.condition{
+  color: #3e9ecb;
+  position: absolute;
+  top:270px ;
+  left: 5%;
+
+}
+.statue{
+  width: 100%;
+  padding: 10px;
+}
+.statue1{
+  margin: 5px;
+  
+}
+
+.header  {
+  position: relative;
+  left: 40%;
+    transform: translateX(calc(-50% + 100px));
+  text-align: center;
+}
+.footer{
+  position: absolute;
+  bottom: 0;
+  
+  margin-bottom: 20px;
+  color: white;
+  width: 100%;
+  z-index: -2;
+}
